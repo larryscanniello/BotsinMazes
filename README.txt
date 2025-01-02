@@ -38,11 +38,11 @@ ________________________________________________________________________________
 Part 2: Mice-Catching Bots
 
 The goal is for the bots to catch one or two mice as soon as possible.
-There are two modes: Either the mice stay in the same place at every time step, or can move at each time step 
+There are two modes: Either the mice stay in the same place at every time step, or can move at each time step.
 At each time step, the bots must choose between two options: Move or sense.
 If the bot senses, it receives a beep with probability exp(-a(d-1)), where:
   d is the Manhattan distance from the bot to a mouse (slightly different calculation in two mouse case - see write up)
-  a is the sensitivity of the sensor, which is a parameter that can be selected randomly or inputted manually
+  a is the sensitivity of the sensor, which is a parameter that can be selected randomly or inputted manually.
 
 Bot 1 - Senses, moves to the highest probability square, senses again, repeat
 Bot 2 - Alternates moving and sensing
@@ -69,8 +69,9 @@ ________________________________________________________________________________
 Part 3: Neural nets catch bots
 
 This is the same setup as part 2, except we have added a fourth bot, a simple neural net.
+This neural net was trained on hundreds of thousands of training examples using part 2 of the project.
 Bot 3 remains the same as part 2.
-See write-up to see the actual code for the neural nets I trained and full analysis.
+See write-up to see the actual code for all of the neural nets I trained and full analysis.
 The neural networks are classifiers. 
 They take in data about the current state, and outputs probabilities of one of five classes/bot moves: Up, down, left, right, or sense.
 The highest probability move is selected. If that is invalid move, the next highest probability move is selected, and so on.
