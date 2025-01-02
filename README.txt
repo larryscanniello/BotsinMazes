@@ -22,7 +22,7 @@ Here is the legend for the visualization:
 
 0 - open square
 1 - closed square; bots cannot move to these
-2 - fire square; if bot is in same square as fire, game over
+2 - fire square; if bot is in same square as fire, then that bot is done
 5 - fire extinguisher
 10 - bot 1
 100 - bot 2
