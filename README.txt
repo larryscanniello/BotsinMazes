@@ -26,7 +26,7 @@ Bot 4 - Runs 50 fire simulations at every time-step to assign every square a wei
 Legend for visualization:
 
 0 - open square
-1 - closed square; bots cannot move to these
+1 - closed square; bots cannot move to these, fire cannot spread to these
 2 - fire square; if bot is in same square as fire, then that bot is done
 5 - fire extinguisher
 10 - bot 1
