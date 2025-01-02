@@ -79,7 +79,7 @@ The highest probability move is selected. If that is invalid move, the next high
 A "bump" is when the highest probability move is invalid. My code will output the number of bumps as part of the summary data. This is an important error measure.
 I decided to only include the option of running the stochastic neural net with one mouse with my project here.
 The bot also has backtrack protection turned on.
-This is like playing Mario Kart with the setting turned on so you can't drive off the edge.
+All of these protections are like playing Mario Kart with the setting turned on so you can't drive off the edge.
 The neural net is still doing the driving, but with some help.
 
 
