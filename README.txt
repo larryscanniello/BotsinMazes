@@ -8,7 +8,8 @@ It gave me a lot of practice with Python.
 Soon, I will implement a GUI and enhance the visualizations.
 For now, the simulations can be visualized by printing the grid/layout at each timestep to the file 'shipresults.txt'.
 
-________________________________________________________________________________________________________________________________
+
+__________________________________________________________________________________________________________________
 
 Part 1: Fire-Extinguishing Bots
 
@@ -33,7 +34,7 @@ Legend for visualization:
 1000 - bot 3
 10000 - bot 4
 
-________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________
 
 Part 2: Mice-Catching Bots
 
@@ -64,7 +65,7 @@ The following you will only see in the two mice case:
 1012 - mouse, bot 1 and bot 3 have caught this mouse
 1102 - mouse, bot 2 and bot 3 have caught this mouse
 
-________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________
 
 Part 3: Neural nets catch bots
 
