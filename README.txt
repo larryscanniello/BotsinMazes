@@ -69,6 +69,7 @@ ________________________________________________________________________________
 Part 3: Neural nets catch bots
 
 This is the same setup as part 2, except we have added a fourth bot, a simple neural net.
+Bot 3 remains the same as part 2.
 See write-up to see the actual code for the neural nets I trained and full analysis.
 The neural networks are classifiers. 
 They take in data about the current state, and outputs probabilities of one of five classes/bot moves: Up, down, left, right, or sense.
