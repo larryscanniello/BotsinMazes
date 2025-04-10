@@ -1,4 +1,4 @@
-# BotsinMazes
+g# BotsinMazes
 
 Use runme.py, with all other files in the same directory, to open an interface to access all parts of the project.
 
@@ -21,7 +21,7 @@ The fire spreads to a cell with probability 1-(1-q)^K, where:
 Bot 1 - Plans the shortest path to the fire extinguisher, and does not deviate from this path
 Bot 2 - At every step, replans the shortest path to the fire extinguisher
 Bot 3 - At every step, replans the shortest path to the fire extinguisher and avoids fire adjacent squares if possible
-Bot 4 - Runs 50 fire simulations at every time-step to assign every square a weight, then use Uniform Cost Search/Dijkstras to find lowest cost path. See write-up for explanation in painful detail.
+Bot 4 - Runs 50 fire simulations at the beginning to assign every square a weight, then use Uniform Cost Search/Dijkstras to find lowest cost path. See write-up for explanation in painful detail.
 
 Legend for visualization:
 
