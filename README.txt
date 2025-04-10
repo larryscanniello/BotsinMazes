@@ -1,5 +1,7 @@
 g# BotsinMazes
 
+I'm currently working on making this into a full-stack game. To see progress on this, go to my repository Gamesuite.
+
 Use runme.py, with all other files in the same directory, to open an interface to access all parts of the project.
 
 This is a semester-long project I completed in my artificial intelligence class at Rutgers.
